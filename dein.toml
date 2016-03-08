@@ -1,0 +1,43 @@
+# if-endif補完
+[[plugins]]
+repo = 'tpope/vim-endwise'
+
+# コメント拡張
+[[plugins]]
+repo = 'tomtom/tcomment_vim'
+
+# 文末スペース表示
+[[plugins]]
+repo = 'bronson/vim-trailing-whitespace'
+
+# 編集履歴表示->ファイルオープン
+[[plugins]]
+repo = 'yegappan/mru'
+
+# 括弧自動閉じ
+[[plugins]]
+repo = 'Townk/vim-autoclose'
+
+# html補完
+[[plugins]]
+repo = 'mattn/emmet-vim'
+
+# 簡易実行(Quickrun)
+[[plugins]]
+repo = 'thinca/vim-quickrun'
+
+# grep拡張
+[[plugins]]
+repo = 'grep.vim'
+
+# 癒し
+[[plugins]]
+repo = 'drillbits/nyan-modoki.vim'
+
+# elixirシンタックス
+[[plugins]]
+repo = 'elixir-lang/vim-elixir'
+
+# シンタックスチェック
+[[plugins]]
+repo = 'scrooloose/syntastic'
