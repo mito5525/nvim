@@ -41,3 +41,7 @@ repo = 'elixir-lang/vim-elixir'
 # シンタックスチェック
 [[plugins]]
 repo = 'scrooloose/syntastic'
+
+# coffeeシンタックス
+[[plugins]]
+repo = 'kchmck/vim-coffee-script'
