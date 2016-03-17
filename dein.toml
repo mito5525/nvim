@@ -2,15 +2,15 @@
 [[plugins]]
 repo = 'tpope/vim-endwise'
 
-# リファレンス表示
+# リファレンス表示 K
 [[plugins]]
 repo = 'thinca/vim-ref'
 
-# クオート切り替え
+# クオート切り替え cs'" cs"' cs'<p>
 [[plugins]]
 repo = 'tpope/vim-surround'
 
-# コメント拡張
+# コメント拡張 Ctrl --
 [[plugins]]
 repo = 'tomtom/tcomment_vim'
 
@@ -18,7 +18,7 @@ repo = 'tomtom/tcomment_vim'
 [[plugins]]
 repo = 'bronson/vim-trailing-whitespace'
 
-# 編集履歴表示->ファイルオープン
+# 編集履歴表示->ファイルオープン :MRU
 [[plugins]]
 repo = 'yegappan/mru'
 
@@ -26,7 +26,7 @@ repo = 'yegappan/mru'
 [[plugins]]
 repo = 'Townk/vim-autoclose'
 
-# html補完
+# html補完 Ctrl y,
 [[plugins]]
 repo = 'mattn/emmet-vim'
 
