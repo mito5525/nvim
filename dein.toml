@@ -6,6 +6,10 @@ repo = 'tpope/vim-endwise'
 [[plugins]]
 repo = 'thinca/vim-ref'
 
+# クオート切り替え
+[[plugins]]
+repo = 'tpope/vim-surround'
+
 # コメント拡張
 [[plugins]]
 repo = 'tomtom/tcomment_vim'
