@@ -74,6 +74,8 @@ let g:syntastic_auto_loc_list=2
 let g:syntastic_mode_map = { 'mode': 'passive',
             \ 'passive_filetypes': ['ruby'] }
 let g:syntastic_ruby_checkers = ['rubocop']
+
+command Sc SyntasticCheck
 """"""""""""""""""""""""""""""
 
 set encoding=utf-8
@@ -117,6 +119,3 @@ inoremap jj <Esc>
 
 " インサートモード時にバックスペースを使う
 set backspace=indent,eol,start
-
-" alias SyntasticCheck
-command Sc SyntasticCheck
