@@ -133,3 +133,7 @@ set backspace=indent,eol,start
 
 " alias 最終ヤンクをペースト d x での上書き回避
 noremap PP "0p
+
+" ビジュアルモード 連続インデント対応
+vnoremap > >gv
+vnoremap < <gv
