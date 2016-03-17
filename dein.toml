@@ -2,6 +2,10 @@
 [[plugins]]
 repo = 'tpope/vim-endwise'
 
+# リファレンス表示
+[[plugins]]
+repo = 'thinca/vim-ref'
+
 # コメント拡張
 [[plugins]]
 repo = 'tomtom/tcomment_vim'
