@@ -45,3 +45,9 @@ repo = 'scrooloose/syntastic'
 # coffeeシンタックス
 [[plugins]]
 repo = 'kchmck/vim-coffee-script'
+
+# for Markdown
+[[plugins]]
+repo = 'kannokanno/previm'
+[[plugins]]
+repo = 'tyru/open-browser.vim'

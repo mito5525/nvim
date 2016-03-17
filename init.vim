@@ -77,6 +77,17 @@ let g:syntastic_ruby_checkers = ['rubocop']
 
 command Sc SyntasticCheck
 """"""""""""""""""""""""""""""
+" for Markdown
+""""""""""""""""""""""""""""""
+au BufRead,BufNewFile *.md set filetype=markdown
+command Po PrevimOpen
+""""""""""""""""""""""""""""""
+" open_broser
+""""""""""""""""""""""""""""""
+let g:netrw_nogx = 1 " disable netrw's gx mapping.
+nmap gx <Plug>(openbrowser-smart-search)
+vmap gx <Plug>(openbrowser-smart-search)
+""""""""""""""""""""""""""""""
 
 set encoding=utf-8
 set t_Co=256
