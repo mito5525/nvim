@@ -85,8 +85,8 @@ command Po PrevimOpen
 " open_broser
 """"""""""""""""""""""""""""""
 let g:netrw_nogx = 1 " disable netrw's gx mapping.
-nmap gx <Plug>(openbrowser-smart-search)
-vmap gx <Plug>(openbrowser-smart-search)
+nmap ob <Plug>(openbrowser-smart-search)
+vmap ob <Plug>(openbrowser-smart-search)
 """"""""""""""""""""""""""""""
 
 set encoding=utf-8
