@@ -88,6 +88,22 @@ let g:netrw_nogx = 1 " disable netrw's gx mapping.
 nmap ob <Plug>(openbrowser-smart-search)
 vmap ob <Plug>(openbrowser-smart-search)
 """"""""""""""""""""""""""""""
+" vimgrep & quickfix
+""""""""""""""""""""""""""""""
+autocmd QuickFixCmdPost *grep* cwindow
+nnoremap [q :cprevious<CR>   " 前へ
+nnoremap ]q :cnext<CR>       " 次へ
+nnoremap [Q :<C-u>cfirst<CR> " 最初へ
+nnoremap ]Q :<C-u>clast<CR>  " 最後へ
+
+" Auto-close quickfix window
+augroup QfAutoCommands
+  autocmd!
+  autocmd WinEnter * if (winnr('$') == 1) &&
+    \ (getbufvar(winbufnr(0), '&buftype')) == 'quickfix'
+    \ | quit | endif
+augroup END
+""""""""""""""""""""""""""""""
 
 set encoding=utf-8
 set t_Co=256
