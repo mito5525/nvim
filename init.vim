@@ -15,19 +15,19 @@ if &runtimepath !~# '/dein.vim'
 endif
 
 " 設定開始
-call dein#begin(s:dein_dir)
+if dein#load_state(s:dein_dir)
+  call dein#begin(s:dein_dir)
 
-" プラグインリストを収めた TOML ファイル
-let s:toml      = '~/.config/nvim/dein.toml'
+  " プラグインリストを収めた TOML ファイル
+  let s:toml      = '~/.config/nvim/dein.toml'
 
-" TOML を読み込み、キャッシュしておく
-if dein#load_cache([expand('<sfile>'), s:toml])
+  " TOML を読み込み、キャッシュしておく
   call dein#load_toml(s:toml,      {'lazy': 0})
-  call dein#save_cache()
-endif
 
-" 設定終了
-call dein#end()
+  " 設定終了
+  call dein#end()
+  call dein#save_state()
+endif
 
 " もし、未インストールものものがあったらインストール
 if dein#check_install()
