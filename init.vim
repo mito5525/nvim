@@ -84,9 +84,8 @@ command Po PrevimOpen
 """"""""""""""""""""""""""""""
 " open_broser
 """"""""""""""""""""""""""""""
-let g:netrw_nogx = 1 " disable netrw's gx mapping.
-nmap ob <Plug>(openbrowser-smart-search)
-vmap ob <Plug>(openbrowser-smart-search)
+nmap Bo <Plug>(openbrowser-smart-search)
+vmap Bo <Plug>(openbrowser-smart-search)
 """"""""""""""""""""""""""""""
 " vimgrep & quickfix
 """"""""""""""""""""""""""""""
