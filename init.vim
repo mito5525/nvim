@@ -103,6 +103,10 @@ augroup QfAutoCommands
     \ | quit | endif
 augroup END
 """"""""""""""""""""""""""""""
+" Gitgutter
+nnoremap <silent> ,gg :<C-u>GitGutterToggle<CR>
+nnoremap <silent> ,gh :<C-u>GitGutterLineHighlightsToggle<CR>
+""""""""""""""""""""""""""""""
 
 set encoding=utf-8
 set t_Co=256
