@@ -159,3 +159,9 @@ vnoremap cy "*y
 " ビジュアルモード 連続インデント対応
 vnoremap > >gv
 vnoremap < <gv
+
+" 表示上の行移動をデフォルトにする
+nnoremap j gj
+nnoremap k gk
+nnoremap gj j
+nnoremap gk k
