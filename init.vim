@@ -123,6 +123,9 @@ set shiftwidth=2
 " タブ->半角スペース
 set expandtab
 
+" タブ可視化
+set list
+
 " カーソル位置表示
 set ruler
 
