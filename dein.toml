@@ -34,10 +34,6 @@ repo = 'mattn/emmet-vim'
 [[plugins]]
 repo = 'grep.vim'
 
-# 癒し
-[[plugins]]
-repo = 'drillbits/nyan-modoki.vim'
-
 # elixirシンタックス
 [[plugins]]
 repo = 'elixir-lang/vim-elixir'
