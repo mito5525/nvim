@@ -32,7 +32,7 @@ repo = 'mattn/emmet-vim'
 
 # grep拡張
 [[plugins]]
-repo = 'grep.vim'
+repo = 'vim-scripts/grep.vim'
 
 # elixirシンタックス
 [[plugins]]
