@@ -100,6 +100,10 @@ augroup END
 nnoremap <silent> ,gg :<C-u>GitGutterToggle<CR>
 nnoremap <silent> ,gh :<C-u>GitGutterLineHighlightsToggle<CR>
 """"""""""""""""""""""""""""""
+" ビュー自動保存/復元 (折りたたみ)
+autocmd BufWinLeave ?* silent! mkview
+autocmd BufWinEnter ?* silent! loadview
+""""""""""""""""""""""""""""""
 
 set encoding=utf-8
 set t_Co=256
