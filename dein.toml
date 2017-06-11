@@ -49,6 +49,7 @@ repo = 'kchmck/vim-coffee-script'
 # Markdownプレビュー Po
 [[plugins]]
 repo = 'kannokanno/previm'
+
 # ブラウザ検索 Bo
 [[plugins]]
 repo = 'tyru/open-browser.vim'
