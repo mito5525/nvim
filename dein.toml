@@ -60,3 +60,7 @@ repo = 'airblade/vim-gitgutter'
 # Dockerfileシンタックス
 [[plugins]]
 repo = 'ekalinin/Dockerfile.vim'
+
+# ステータスライン オシャレ
+[[plugins]]
+repo = 'itchyny/lightline.vim'

@@ -104,6 +104,9 @@ nnoremap <silent> ,gh :<C-u>GitGutterLineHighlightsToggle<CR>
 autocmd BufWinLeave ?* silent! mkview
 autocmd BufWinEnter ?* silent! loadview
 """"""""""""""""""""""""""""""
+" lightline
+let g:lightline = { 'colorscheme': 'wombat' }
+""""""""""""""""""""""""""""""
 
 set encoding=utf-8
 set t_Co=256
