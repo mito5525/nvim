@@ -65,3 +65,7 @@ repo = 'ekalinin/Dockerfile.vim'
 # ステータスライン オシャレ
 [[plugins]]
 repo = 'itchyny/lightline.vim'
+
+# クイックハイライト
+[[plugins]]
+repo = 't9md/vim-quickhl'
