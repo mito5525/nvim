@@ -38,9 +38,9 @@ repo = 'vim-scripts/grep.vim'
 [[plugins]]
 repo = 'elixir-lang/vim-elixir'
 
-# シンタックスチェック
+# シンタックスチェック (非同期)
 [[plugins]]
-repo = 'scrooloose/syntastic'
+repo = 'w0rp/ale'
 
 # coffeeシンタックス
 [[plugins]]

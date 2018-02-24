@@ -62,13 +62,13 @@ endif
 """"""""""""""""""""""""""""""
 " シンタックスチェック
 """"""""""""""""""""""""""""""
-let g:syntastic_enable_signs=1
-let g:syntastic_auto_loc_list=2
-let g:syntastic_mode_map = { 'mode': 'passive',
-            \ 'passive_filetypes': ['ruby'] }
-let g:syntastic_ruby_checkers = ['rubocop']
-
-command Sc SyntasticCheck
+let g:ale_sign_column_always = 1
+let g:ale_lint_on_save = 1
+let g:ale_lint_on_text_changed = 0
+let g:ale_sign_error = '🔥'
+let g:ale_sign_warning = '🌧'
+highlight clear ALEErrorSign
+highlight clear ALEWarningSign
 """"""""""""""""""""""""""""""
 " for Markdown
 """"""""""""""""""""""""""""""
