@@ -132,6 +132,7 @@ set expandtab
 
 " タブ可視化
 set list
+set listchars=tab:>\ ,trail:_
 
 " カーソル位置表示
 set ruler
