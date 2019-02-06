@@ -69,3 +69,7 @@ repo = 'itchyny/lightline.vim'
 # クイックハイライト
 [[plugins]]
 repo = 't9md/vim-quickhl'
+
+# CSV色分け
+[[plugins]]
+repo = 'mechatroner/rainbow_csv'
