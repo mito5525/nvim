@@ -73,3 +73,7 @@ repo = 't9md/vim-quickhl'
 # CSV色分け
 [[plugins]]
 repo = 'mechatroner/rainbow_csv'
+
+# git コミット履歴表示
+# [[plugins]]
+# repo = 'rhysd/git-messenger.vim'
